@@ -37,4 +37,4 @@ for image in images:
             os.mkdir(family_folder)
     #move file
         shutil.move(source, destination) 
-        print('Moved:', image['Barcode'])
+    print('Moved:', image['Barcode'])
