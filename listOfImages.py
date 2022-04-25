@@ -12,7 +12,7 @@ def imageNames(dir):
     for image in images:
         image = Path(image).stem
         if image[0].isdigit():
-          pass
+          continue
         else:
           imageList.append(image)
         # print(imageList)
