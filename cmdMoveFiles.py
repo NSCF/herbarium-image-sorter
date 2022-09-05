@@ -8,13 +8,13 @@ import click
 
 
 
-# @click.command()
-# @click.option('--file',  
-#                 help='File name with image names and families e.g. ImageFamily.csv.')
-# @click.option('--source',  
-#                 help='Folder where unsorted images are.')
-# @click.option('--dest', 
-#                 help='The folder where images would be moved to')
+@click.command()
+@click.option('--file',  
+                help='File name with image names and families e.g. ImageFamily.csv.')
+@click.option('--source',  
+                help='Folder where unsorted images are.')
+@click.option('--dest', 
+                help='The folder where images would be moved to')
 
 
 # open csv file and iterate files
